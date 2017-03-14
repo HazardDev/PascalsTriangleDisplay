@@ -1,3 +1,5 @@
-<h1>
-  {{title}}
-</h1>
+<input [(ngModel)]="size" type="number">
+<button (click)="calculateTriangle(size)">AWD</button>
+<div *ngFor="let item of triangle">
+  {{item}}
+</div>
